@@ -1,0 +1,111 @@
+* {
+    font-family: "Poppins", serif;
+}
+
+header {
+    background-color: #7e4e99;
+}
+
+.nav-item a {
+    color: #ffd500;
+}
+
+/* botones de carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(108%);
+}
+
+/* Pendiente el hover de las letras */
+#app {
+    color: #7e4e99;
+}
+
+.boton-cv {
+    background-color: #7e4e99;
+    color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+
+.boton-cv:hover {
+    background-color: #e3d5e4;
+    color: #7e4e99;
+    border-color: #e3d5e4;
+}
+
+.caja-habilidades {
+    background-color: #e3d5e4;
+}
+
+.btn-proyecto {
+    background-color: #7e4e99;
+    color: white;
+}
+
+.btn-proyecto a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-title {
+    color: #7e4e99;
+}
+
+/* cambiar de color en la caja de contacto */
+.cardContacto {
+    background: #e3d5e4;
+}
+
+footer {
+    background-color: #a787bd;
+}
+
+/* colores de íconos footer */
+footer .bi {
+    color: #ffffff;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icon-color {
+    color: #7e4e99;
+}
+
+.img-round {
+    border-radius: 50%; /* Hace que los bordes sean redondos */
+    width: 250px; /* Ajusta el tamaño según tus necesidades */
+    height: 250px; /* Asegúrate de que el ancho y el alto sean iguales */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarla */
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #000 !important;
+}
+
+/* Animación: deslizar de izquierda a derecha */
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%); /* Empieza fuera de la pantalla por la izquierda */
+      opacity: 0; /* Opcional: transparente al inicio */
+    }
+    to {
+      transform: translateX(0); /* Termina en su posición original */
+      opacity: 1; /* Opcional: completamente visible */
+    }
+  }
+  
+/* Clase para aplicar la animación */
+.slide-in-left {
+    animation: slideInFromLeft 1s ease-out; /* Duración de 1s con una salida suave */
+}
+
+.img-grow {
+    transition: transform 0.3s ease-in-out; /* Suaviza la animación */
+}
+
+.img-grow:hover {
+    transform: scale(1.1); /* Hace crecer la imagen un 10% */
+}
