@@ -109,3 +109,7 @@ footer p a {
 .img-grow:hover {
     transform: scale(1.1); /* Hace crecer la imagen un 10% */
 }
+
+.card-testimonio{
+    height: 700px;
+}
