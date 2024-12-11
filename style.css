@@ -27,6 +27,17 @@ header {
     border-color: aliceblue;
 }
 
+.boton-cv a {
+    text-decoration: none;
+}
+
+.boton-cv:hover a {
+    background-color: #e3d5e4;
+    color: #7e4e99;
+    border-color: #e3d5e4;
+    text-decoration: none;
+}
+
 .boton-cv:hover {
     background-color: #e3d5e4;
     color: #7e4e99;
@@ -112,4 +123,8 @@ footer p a {
 
 .card-testimonio{
     height: 700px;
+}
+
+.card-proyectos{
+    height: 40vh;
 }
